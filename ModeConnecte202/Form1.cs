@@ -72,5 +72,10 @@ namespace ModeConnecte202
             cn = null;
 
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

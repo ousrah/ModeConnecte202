@@ -1,7 +1,22 @@
 ﻿<?xml version='1.0' encoding='utf-8'?>
-<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)">
-  <Profiles>
-    <Profile Name="(Default)" />
-  </Profiles>
-  <Settings />
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="ModeConnecte202.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="librairieConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;CQhCGBucYtWhIUvsYjqGz2x02z8ikMzLmrB1RN9m30JjwIc37bEZJ/v6Kumkh8Yv5hQvJrPzGpRjXgd/uFNCkl4RBINYBO6lN8+w3JtvbLkiS9bH4oh5BA==&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">CQhCGBucYtWhIUvsYjqGz2x02z8ikMzLmrB1RN9m30JjwIc37bEZJ/v6Kumkh8Yv5hQvJrPzGpRjXgd/uFNCkl4RBINYBO6lN8+w3JtvbLkiS9bH4oh5BA==</Value>
+    </Setting>
+    <Setting Name="librairieConnectionString1" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=.\sqlexpress2008;Initial Catalog=librairie;User ID=sa;Password=P@ssw0rd&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=.\sqlexpress2008;Initial Catalog=librairie;User ID=sa;Password=P@ssw0rd</Value>
+    </Setting>
+  </Settings>
 </SettingsFile>

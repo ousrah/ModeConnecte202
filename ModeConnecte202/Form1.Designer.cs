@@ -31,9 +31,9 @@ namespace ModeConnecte202
         {
             this.listBox1 = new System.Windows.Forms.ListBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.button1 = new System.Windows.Forms.Button();
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.button1 = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
@@ -66,16 +66,6 @@ namespace ModeConnecte202
             this.dataGridView1.Size = new System.Drawing.Size(528, 329);
             this.dataGridView1.TabIndex = 1;
             // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(30, 46);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(239, 46);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "tous les ouvrages";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
             // Column1
             // 
             this.Column1.HeaderText = "numero";
@@ -91,6 +81,16 @@ namespace ModeConnecte202
             this.Column2.Name = "Column2";
             this.Column2.ReadOnly = true;
             this.Column2.Width = 125;
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(30, 46);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(239, 46);
+            this.button1.TabIndex = 2;
+            this.button1.Text = "tous les ouvrages";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // textBox1
             // 
@@ -134,6 +134,7 @@ namespace ModeConnecte202
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
